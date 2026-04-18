@@ -222,3 +222,21 @@ footer {
   font-size: 14px;
   border-top: 1px solid #222;
 }
+
+p {
+  position: static !important;
+}
+
+section {
+  position: relative;
+  overflow: visible;
+}
+
+footer {
+  background: #000;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  position: relative;
+}
