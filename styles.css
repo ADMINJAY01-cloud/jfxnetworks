@@ -197,10 +197,6 @@ footer {
   margin-bottom: 100px;
 }
 
-#home ~ footer {
-  display: none;
-}
-
 body {
   user-select: none;
 }
