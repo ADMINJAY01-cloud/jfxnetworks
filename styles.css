@@ -233,3 +233,22 @@ footer {
 .business-packages {
   margin-top: -40px;   /* moves them UP */
 }
+
+body {
+  background-image: url("images/background.jpg"); /* your image path */
+  background-size: cover;      /* makes it fill the screen */
+  background-position: center; /* keeps it centered */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps it still while scrolling */
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: -1;
+}
